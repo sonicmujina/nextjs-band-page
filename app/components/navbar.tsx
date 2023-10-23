@@ -15,27 +15,27 @@ const Navbar = () => {
   <div className="container mx-auto px-4 h-full flex justify-center items-center" style={{ backgroundColor: "black"}}>
 		<ul className="flex gap-x-6 text-white">
       <li>
-        <Link href="/about">
+        <Link href="pages/About">
           <p>about</p>
         </Link>
       </li>
       <li>
-        <Link href="/live">
+        <Link href="pages/Live">
           <p>live</p>
         </Link>
       </li>
       <li>
-        <Link href="/merch">
+        <Link href="pages/merch">	
           <p>goods</p>
         </Link>
       </li>
       <li>
-        <Link href="/contacts">
+        <Link href="pages/contacts">
           <p>contacts</p>
         </Link>
       </li>
       <li>
-        <Link href="/bandcamp">
+        <Link href="pages/bandcamp">
           <p>bandcamp</p>
         </Link>
       </li> 
