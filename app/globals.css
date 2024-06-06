@@ -2,26 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+/* globals.css */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  background-color: #4c87c2;
 }
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, rgba(108, 198, 225, 1), rgba(0, 0, 0, 0)),
+    linear-gradient(360deg, rgba(73, 197, 182, 1), rgba(255, 255, 255, 0));
+  background-color: "#6cc6e1";
 }
+
+.padded-hr {
+  border: none;
+  height: 2px;
+  background-color: white;
+}
+
+.info-box {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.info-box-description {
+  word-spacing: "0.5px";
+  margin: "20px";
+  margin-bottom: "10px";
+}
+
+/* .contact { 
+  background-color: #4c87c2;
+} */
+
+/* 
+.container { 
+  background-color: #4c87c2;
+} */
