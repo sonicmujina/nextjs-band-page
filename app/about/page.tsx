@@ -36,28 +36,39 @@ const AboutPage = () => {
           <div className="mt-14">
             <ul className="font-bold">
               <li>
-                {" "}
                 2022: At university Alvin and James met in class and became
                 friends through sharing similar music interests such as Nirvana
-                and Sonic Youth.{" "}
+                and Sonic Youth.
               </li>
               <li className="mt-6">
-                {" "}
                 2023: After attending an open mic night at the UNSW Roundhouse,
-                Alvin and James were motivated to form a band, inspired by the
+                Alvin and James were motivated to form a band, inspired b y the
                 Traffic Control band&apos;s show-stopping performance.
               </li>
               <li className="mt-6 ml-14">
-                {" "}
                 In March, through the rock music society at the uni, Daryl Chong
                 and Rick Su joined and FishPox was formed.
               </li>
               <li className="mt-6 ml-14">
-                {" "}
                 On June 14th of the same year, FishPox played their first live
                 show at the UNSW Roundhouse Open Mic Night where the band&apos;s
                 first original &quot;Things That I Can&apos;t&quot; was
                 featured.
+              </li>
+              <li className="mt-6">
+                  2024:
+              </li>
+              <li className="mt-6 ml-14">
+                On February 7th, FishPox played at the O-week Gig Night where they showcased another original &quot;Time Teleports&quot;.
+              </li>
+              <li className="mt-6 ml-14">
+                Rick Su leaves the band to return to their home country.
+              </li>
+              <li className="mt-6 ml-14">
+                New Bassist Zebedee joins the band.
+              </li>
+              <li className="mt-6 ml-14">
+                Daryl and Zebedee decide to leave the band to pursue other projects.
               </li>
             </ul>
           </div>
